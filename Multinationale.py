@@ -22,7 +22,7 @@ class Multinationale :
         NbFiliales = len(self.__LF)
 
         print("- La multinationale ", self.__Nom," est composée de ",NbFiliales," filiales. Son pays d'origine est ", self.__PaysO,".")
-        ListeDate = []
+        ListeDates = []
 
         for j in self.__LF :
             DateVieille = self.__LF[0].getCreation()
